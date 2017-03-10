@@ -38,9 +38,9 @@ public class PruebaAuto {
         
         System.out.println(combi.getColor());
        
-//        combi.setColor("rosa bebe");
-//        
-//        System.out.println(combi.getColor());
+        combi.setColor("rosa bebe");
+        
+        System.out.println(combi.getColor());
 
         Auto puingDurmiendo = new Auto("SOTAVENTO", new ColorAuto());
   
