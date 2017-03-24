@@ -32,6 +32,10 @@ public class Calificaciones{
       }
   }
 
+  public void esteEsMiMetodo(String nombre){
+    System.out.println("Hola "+nombre+" Soy Luis, de la Istmo Americana");
+  }
+
   public static void main(String[] args) {
     Calificaciones c = new Calificaciones();
 
