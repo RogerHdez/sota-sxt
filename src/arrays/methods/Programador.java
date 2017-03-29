@@ -41,7 +41,7 @@ public class Programador {
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
-  
+
     /** 
      * @return un puesto de programdor random*/
     public static String getPuestoRandom(){
