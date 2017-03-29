@@ -5,6 +5,7 @@
  */
 package arrays.methods;
 
+import java.math.MathContext;
 import javax.swing.JOptionPane;
 
 /**
@@ -35,7 +36,7 @@ public class TestProgramadores {
             System.out.println(p.getNombre() + " es especialista en " + 
                     p.getEspecialidad());
         }
-        
+                
         int[] num = {3,545,35,56,43,5346,45,6};
         System.out.println(suma(num));
         
