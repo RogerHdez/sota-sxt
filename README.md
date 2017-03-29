@@ -2,7 +2,7 @@
 
 **Practicas en clase.**
 
-Sotavento clase programación
+Sotavento clase programación.
 
 - Nayely
 - Roger
@@ -16,4 +16,7 @@ Sotavento clase programación
 - Carlos
 - Eleazar
 
-
+_________________________________
+### Es un proyecto de Netbeans, Pueden abrirlo desde ahí
+_________________________________
+### Las clases estan en la carpeta **src**
