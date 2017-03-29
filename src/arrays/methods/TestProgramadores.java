@@ -5,6 +5,8 @@
  */
 package arrays.methods;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author josef
@@ -34,5 +36,18 @@ public class TestProgramadores {
                     p.getEspecialidad());
         }
         
+        int[] num = {3,545,35,56,43,5346,45,6};
+        System.out.println(suma(num));
+        
+    }
+    
+    //los 3 puntos indican que recibe un array
+    public static int suma(int... x){
+        int suma = 0;
+        
+        for (int i = 0; i < x.length; i++) {
+            suma+= x[i];
+        }
+        return suma;
     }
 }
