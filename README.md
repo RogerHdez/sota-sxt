@@ -20,3 +20,5 @@ _________________________________
 ### Es un proyecto de Netbeans, Pueden abrirlo desde ahí
 _________________________________
 ### Las clases estan en la carpeta **src**
+
+# Tarea: Hacer una clase para calcular el determinante m*n

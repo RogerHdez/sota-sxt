@@ -13,15 +13,15 @@ import java.util.Random;
  */
 public class Edad {
 
-    public static int ADOLESCENTE = 16;
-    public static int ADULTO_MAYOR = 60;
-    public static int NINIO = 9;
-    public static int BEBE = 1;
-    public static int POST_ADOLESCENTE = 20;
-    public static int ADULTO = 30;
-    public static int PRE_ADOLESCENTE = 13;
-    public static int SENIOR = 40;
-    public static int TREINTONA = 35;
+    public final static int ADOLESCENTE = 16;
+    public final static int ADULTO_MAYOR = 60;
+    public final static int NINIO = 9;
+    public final static int BEBE = 1;
+    public final static int POST_ADOLESCENTE = 20;
+    public final static int ADULTO = 30;
+    public final static int PRE_ADOLESCENTE = 13;
+    public final static int SENIOR = 40;
+    public final static int TREINTONA = 35;
 
     /**Metodo que retorna una edad Random
      * @return edad random */
