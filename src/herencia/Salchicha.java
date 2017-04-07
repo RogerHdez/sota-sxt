@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package otros;
+package herencia;
 
 /**
  *
  * @author josef
  */
-public class SegundaLey {
-  
-    public static final double GRAVEDAD = 9.8;
-    //Fuerza = masa * aceleracion -> Peso
-   
-   
+public class Salchicha extends Perro{
+    
 }
