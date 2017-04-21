@@ -21,13 +21,18 @@ public class Vocho extends Sedan{
         super(tamanio, nombre, color, ruedas);
         this.turbina = turbina;
     }
-//
-//    @Override
-//    protected void saludo() {
-//        if(turbina)
-//            System.out.println("Saludos desde mi vochito con turbina de Jett");
-//        else
-//            System.out.println("Saludos desde mi vochito");
-//    }
+    
+    @Override
+    protected void saludo() {
+        if(turbina)
+            System.out.println("Saludos desde mi vochito con turbina de Jett");
+        else
+            System.out.println("Saludos desde mi vochito");
+    }
+
+    @Override
+    public String toString() {
+        return "Vocho{" + "turbina=" + turbina + '}';
+    }
     
 }

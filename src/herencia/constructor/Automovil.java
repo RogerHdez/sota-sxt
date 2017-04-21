@@ -32,8 +32,8 @@ public class Automovil {
     }
 
     public String getColor() {
-        //return getColorOscuro(); FFFFFFFF
-        return this.color;
+        return getColorOscuro(); 
+        //return this.color;
     }
 
     public int getRuedas() {
@@ -46,7 +46,7 @@ public class Automovil {
                 + ruedas + " ruedas ";
     }
     
-//    private String getColorOscuro(){
-//        return this.color + " oscuro";
-//    }
+    private String getColorOscuro(){
+        return this.color + " oscuro";
+    }
 }

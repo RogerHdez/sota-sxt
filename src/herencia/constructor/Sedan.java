@@ -45,15 +45,19 @@ public class Sedan extends Automovil{
     public String toString(String mensaje){
         return this.toString() + mensaje;
     }
+
+    /**
+     * El método final no puede ser re-escrito
+     * @return */
+    public final String tipo(){
+        return "tipo Sedan";
+    }
     
-   
-    /***/
-//    public final String tipo(){
-//        return "tipo Sedan";
-//    }
-    
-//    protected void saludo(){
-//        System.out.println("Saludo desde mi " + this.getNombre());
-//    }
+    /*El método tipo protected solo puede ser modificado y accesado por las
+    clasese heredadas
+    */
+    protected void saludo(){
+        System.out.println("Saludo desde mi " + this.getNombre());
+    }
     
 }
