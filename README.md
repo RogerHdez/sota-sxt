@@ -16,8 +16,6 @@ Sotavento clase programación.
 - Carlos
 - Eleazar
 
-_________________________________
-### Es un proyecto de Netbeans, Pueden abrirlo desde ahí
 
 ```
 License MIT
